@@ -404,6 +404,8 @@ padding-bottom: 60px;
     margin: 0;
     display: block;
     margin-bottom: 20px;
+    margin-left: 140px;
+    margin-right: 156px;
 }
 .logo-footer-second-part{
 color: var(--background-hero-color);
@@ -439,6 +441,8 @@ margin-bottom: 9px;
 
 .footer-adress{
     display: block;
+    margin-left: 140px;
+    margin-right: 70px;
 }
 
 .footer-adress li {
@@ -532,5 +536,51 @@ flex-wrap:wrap;
     margin-bottom: 30px;
 }
 
+.footer{
+    display: flex;
+    align-items: baseline;
+}
 
+.container-contacts{
+margin-right: 878px;
+}
 
+.team-contacts-icon-footer{
+    fill:#FFFFFF;
+}
+
+.footer-title{
+    width: 116px;
+    height: 16px;
+    font-family: Roboto;
+font-size: 14px;
+font-weight: 700;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-align: left;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.team-element-icon-footer{
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer; 
+    background-color: #FFFFFF1A;
+    }
+    
+    .team-element-icon-footer:not(:last-child){
+    margin-right: 10px;
+    }
+    
+    .team-element-icon-footer:hover,
+    .team-element-icon-footer:focus,
+    .team-contacts-icon-footer:hover,
+    .team-contacts-icon-footer:focus{
+    background-color:#2196F3;
+    fill:#FFFFFF;
+    }   
